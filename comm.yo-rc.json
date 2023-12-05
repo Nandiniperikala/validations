@@ -1,0 +1,14 @@
+[
+  {
+    "client": "validations",
+    "server": "policies",
+    "type": "async",
+    "framework": "rabbitmq"
+  },
+  {
+    "client": "app",
+    "server": "validations",
+    "type": "sync",
+    "framework": "rest-api"
+  }
+]

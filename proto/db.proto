@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package db;
+
+option go_package = "./proto;db";
+
+
+message Event {
+	string id = 1;
+	string title =2;
+	string description=3;
+}
+
+message MyMessage {
+  string id = 1;
+  string data = 2;
+}
