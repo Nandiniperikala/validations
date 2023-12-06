@@ -6,19 +6,6 @@ Installation: `npm install -g generator-jhipster`
 
 Link:
 
-`git clone https://github.com/tic-oss/jhipster-blueprints.git `
-
-`cd generator-jhipster-gomicro`
-
-`npm link generator-jhipster-gomicro`
-
-A Sample microservices application can be generated using the provided jdl: `jhipster jdl reminder.jdl`
-
-reminder.jdl
-
----
-
-<pre>
    application {
     config {
       baseName gomicro,
