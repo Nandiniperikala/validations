@@ -11,9 +11,7 @@ Link:
       baseName gomicro,
       applicationType microservice,
       packageName com.cmi.tic,
-      authenticationType oauth2,
-      databaseType sql,
-      prodDatabaseType postgresql,
+      authenti
       devDatabaseType postgresql,
       serviceDiscoveryType eureka,
       blueprints [gomicro],
