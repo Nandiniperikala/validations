@@ -9,13 +9,9 @@ Link:
    application {
     config {
       baseName gomicro,
-      applicationType microservice,
+      applicationType micr
       packageName com.cmi.tic,
-      authenti
-      devDatabaseType postgresql,
-      serviceDiscoveryType eureka,
-      blueprints [gomicro],
-      serverPort 9002,
+      authent
     } 
 }
  </pre>
